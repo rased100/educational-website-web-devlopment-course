@@ -10,6 +10,7 @@ const HomeServiceFour = (props) => {
                 <h4>{courseName}</h4>
                 <p>Teacher: {teacher}</p>
                 <p>Price: ${price}</p>
+                <button className="mb-5 btn btn-warning">Buy Now</button>
             </div>
         </div>
     );

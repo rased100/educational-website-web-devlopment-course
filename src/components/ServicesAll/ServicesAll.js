@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Services from '../Services/Services';
 
+// Get data from json file
+
 const ServicesAll = () => {
     const [courses, setCourses] = useState([]);
     console.log(courses)

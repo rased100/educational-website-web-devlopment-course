@@ -13,6 +13,9 @@ import ServicesAll from './components/ServicesAll/ServicesAll';
 function App() {
   return (
     <div className="App">
+
+      {/*--------- React router ---------------*/}
+
       <Router>
         <Header></Header>
         <Switch>

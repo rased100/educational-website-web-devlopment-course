@@ -8,6 +8,9 @@ const Header = () => {
         color: "yellow"
     };
     return (
+
+        // -------------This is Header-----------------
+
         <div className="w-100 nav d-flex d-flex justify-content-around bg-primary p-5">
             <div>
                 <h2 className="color">WD-Course</h2>
