@@ -12,7 +12,7 @@ const HomeService = () => {
     return (
         <div>
             {
-                courses.map(course =>
+                courses.slice(0, 4).map(course =>
                     < HomeServiceFour key={course.sl} course={course} ></HomeServiceFour>
                 )
             }
