@@ -9,7 +9,7 @@ const Home = () => {
             {/* -----------This is home page---------------- */}
 
             <div className="img-fluid bg-secondary p-5 ">
-                <h2 className="p-5">Start learning from <br /> the world’s best institutions</h2>
+                <h1 className="p-5 text-warning">Start learning from <br /> the world’s best institutions</h1>
                 <h1 className="color">( Wd-Course )</h1>
                 <h4>Web Devlopment Course</h4>
                 <input className="p-2 px-5" placeholder="Search our courses" type="text" /><br />

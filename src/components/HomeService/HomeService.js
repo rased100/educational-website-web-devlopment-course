@@ -11,19 +11,12 @@ const HomeService = () => {
     }, [])
     return (
         <div>
-            {/* <h2>Course: {courses.length}</h2> */}
             {
                 courses.map(course =>
-                    <HomeServiceFour course={course}></HomeServiceFour>
+                    < HomeServiceFour course={course} ></HomeServiceFour>
                 )
-                // courses.for(i = 0 i < courses.length; i++){
-                // <HomeServiceFour course={course}></HomeServiceFour>
-                // }
             }
-            {/* {
-                courses.map(course => <Services course={course}></Services>)
-            } */}
-        </div>
+        </div >
     );
 };
 
