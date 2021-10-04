@@ -5,7 +5,7 @@ const Services = (props) => {
     return (
         // services
         <div className="d-flex justify-content-center m-3">
-            <div className="homeCourse bg-info">
+            <div className="homeCourse bg-success pt-5">
                 <img src={img} alt="" />
                 <h4>{courseName}</h4>
                 <p>Teacher: {teacher}</p>

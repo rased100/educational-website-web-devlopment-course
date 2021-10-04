@@ -14,7 +14,7 @@ const ServicesAll = () => {
     return (
         <div>
             {
-                courses.map(course => <Services course={course}></Services>)
+                courses.map(course => <Services key={course.sl} course={course}></Services>)
             }
         </div>
     );
